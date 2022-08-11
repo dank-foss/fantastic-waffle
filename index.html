@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="./master.css">
+</head>
+<body>
+    <div class="title">TOP SCORES </div>
+<div id="results-area-dashboard">
+		<div class="row">
+			<div class="rank">1</div>
+			<img src="./assets/penguMananCrop.jpg">
+			<div class="row-person">mananSethi</div>
+			<div class="row-delta">Fastest</div>
+			<div class="row-score">30</div>
+		</div>
+  <div class="row">
+			<div class="rank">2</div>
+            <img src="./assets/penguAbhinav.jpg">
+            <div class="row-person">abhinavSiddharth</div>
+			<div class="row-score">30</div>
+		</div>
+  <div class="row">
+			<div class="rank">3</div>
+			<img src="./assets/penguRaayoCrop.jpg">
+			<div class="row-person">raayoGoswami</div>
+			<div class="row-score">30</div>
+		</div>
+	<div id="chart"></div>
+</div>
+</body>
+<script type="text/javascript">
+	$('.rank').each(function(index,rank){
+		$(this).html(index+1);
+	});
+</script>
+
+</html>
